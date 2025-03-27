@@ -3,6 +3,7 @@ SETUP
 - npm install
 - npm run build
 - php artisan migrate
+- composer require filament/tables:"^3.3" -W
 - php artisan filament:install --panels
 - php artisan make:filament-user
 - php artisan serve
